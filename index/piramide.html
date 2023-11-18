@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piramide</title>
+    <link rel="stylesheet" href="../estilos/paginas.css">
+</head>
+
+<body>
+
+    <header>Calculadora de Area do Piramide</header>
+    <main>
+        <div class="cor"></div>
+        <div class="paragrafo">Insira dois valores. Os outros serão calculados
+            Supondo que temos uma pirâmide não oblíqua em uma base quadrada. <br />
+            Formula para calcular : At=Ab+AB+Al (At= Área Total, Ab= Área Base menor, AB= Área Base Maior, Al= área
+            Lateral.)
+        </div>
+    </main>
+    <article class='centroPiramide'>
+        <div>
+            Valor da Base Maior:
+            <input type="number" id="BaseMaior">
+        </div>
+        <div>
+            Valor da Base Menor:
+            <input type="number" id="BaseMenor">
+        </div>
+        <div>
+            Valor Area Lateral:
+            <input type="number" id="Lateral">
+        </div>
+        <div>
+            <button onclick="Piramide()">Calcular área</button>
+        </div>
+        </div>
+    </article>
+    <footer>Formas geometricas, feito por VG</footer>
+
+</body>
+<script src="../js/calculo.js"></script>
+
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poligono</title>
+    <link rel="stylesheet" href="../estilos/paginas.css">
+</head>
+
+<body>
+
+    <header>Calculadora de Area do Poligono</header>
+    <main>
+        <div class="cor"></div>
+        <div class="paragrafo">Um polígono (n-gono) regular é um padrão geométrico com n lados de igual comprimento.
+            <br />
+            Formula para calcular : Perimetro/2*Apotema (A= P = é o semiperímetro (metade do perímetro), a=apotema )
+        </div>
+
+
+        <article class='centroPoligono'>
+            <div>
+                Valor do Perimetro:
+                <input type="number" id="metade">
+            </div>
+            <div>
+                Valor do apotema:
+                <input type="number" id="apotema">
+            </div>
+            <div>
+                <button onclick="Poligono()">Calcular área</button>
+            </div>
+            </div>
+        </article>
+    </main>
+    <footer>Formas geometricas, feito por VG</footer>
+
+</body>
+<script src="../js/calculo.js"></script>
+
+</html>

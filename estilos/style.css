@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+header{
+
+    justify-content: center;
+    padding: 52px;
+    color: white;
+    font: 400;
+    background: rgb(6, 20, 20);
+    width: 171vh;
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    font-size: 50px;
+    margin-bottom: 15px;
+    
+    
+
+}
+body{
+
+    background: url(../img/fundo-preto-branco4.webp) ;
+    box-shadow: 0px 0px 1000px rgba(0, 0, 0, 0.1);
+}
+main{
+
+    background: rgb(255, 254, 254);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    display: inline;
+    
+    
+}
+.circulo{
+    
+    margin-right: 450px;
+    margin-left: 450px;
+    background: rgb(255, 254, 254);
+    display: flex;
+
+}
+img{
+    
+    max-width: 100px;
+    height: 100px;
+    margin-left: 30px;
+    margin-right: 10px;
+    
+    
+}
+p{
+    background: rgb(255, 254, 254);
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    padding: 5px;
+    margin-left: 40px;
+    
+    
+
+}
+a{
+    text-decoration: none;
+    margin-top: 35px;
+    display: inline-block;
+    padding: 5px; 
+    margin-left: 10px;
+
+}
+h2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    
+}
+.nome{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 20px;
+    
+}
+button{
+    display: flex;
+    justify-content: center;
+}
+
+.button,
+.resultado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+footer{
+    color: white;
+    font: 400;
+    background: rgb(6, 20, 20);
+    width: 178vh;
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    font-size: 50px;
+    margin-top: 5px;
+    font-size: large;
+    font-family:'Courier New', Courier, monospace ;
+    padding: 20px;
+    margin-top: 20px;
+    
+
+}
+
